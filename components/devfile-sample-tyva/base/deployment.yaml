@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tyva
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0001-tenant/tkrw-pr712-0075-0001-app/devfile-sample-tyva@sha256:69e49a4d97f469fe9b7ffe82bc557d6284fcc309d577ca5795c51dce925feeb3
         name: my-nodejs
         ports:
         - containerPort: 3001
